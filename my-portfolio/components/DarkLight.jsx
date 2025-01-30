@@ -27,7 +27,7 @@ const DarkLight = () => {
           "w-7 h-7 flex items-center justify-center rounded-full",
           {
             "ml-5 bg-[#033ba4] border-[#01276d]": theme === "dark",
-            "bg-[#2db7f3] border border-[#0aa0e0]": theme !== "light",
+            "bg-[#2db7f3] border border-[#0aa0e0]": theme !== "dark",
           }
         )}
       >
