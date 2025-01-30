@@ -15,6 +15,7 @@ import classNames from "classnames";
 const DarkLight = () => {
   // set theme stats
   const { theme, setTheme } = useTheme();
+  // setTheme("light");
 
   return (
     //   from bg-zinc-700 to bg-violet-300 of 'div' container
@@ -32,7 +33,7 @@ const DarkLight = () => {
       >
         {/*  */}
 
-        {theme === "light" ? (
+        {theme !== "dark" ? (
           <MdWbSunny
             onClick={() => setTheme("dark")}
             className="cursor-pointer text-[#fff701]"
