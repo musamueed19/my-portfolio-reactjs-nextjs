@@ -1,3 +1,4 @@
+import Contacts from "@/components/Contacts";
 import Header from "@/components/Header";
 
 export default function HomePage() {
@@ -7,6 +8,7 @@ export default function HomePage() {
       
       <div className="mt-20 h-[1000px]">
         <Header />
+        <Contacts />
       </div>
     </main>
   );
