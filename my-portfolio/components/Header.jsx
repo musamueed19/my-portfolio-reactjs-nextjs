@@ -40,7 +40,7 @@ const Header = () => {
       {/* Name Section */}
       <div className="flex-1">
         {/* My Name */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl text-center md:text-left font-bold capitalize text-violet-700 dark:text-white">
+        <h1 className="text-[1.6rem] sm:text-4xl md:text-5xl text-center md:text-left font-bold capitalize text-violet-700 dark:text-white">
           {name}
         </h1>
 
