@@ -139,3 +139,69 @@ export const skillsData = [
   { label: "docker", src: "/skills/docker.png" },
   { label: "GitHub", src: "/skills/git.png" },
 ];
+
+export const experienceData = [
+  {
+    src: "/work/nordic.jpg",
+    company: "nordic software solution",
+    role: "MERN Stack Developer",
+    type: "remote",
+    date: "11/2022 - present",
+    skills: [
+      { label: "node JS", src: "/skills/node-js.png" },
+      { label: "express JS", src: "/skills/express.png" },
+      { label: "mongoDB", src: "/skills/mongodb.png" },
+      { label: "react JS", src: "/skills/react.png" },
+      { label: "Next JS", src: "/skills/next-js.png" },
+      { label: "redux", src: "/skills/redux.png" },
+      { label: "tailwind CSS", src: "/skills/tailwind.png" },
+      { label: "material UI", src: "/skills/mui.png" },
+      { label: "github", src: "/skills/git.png" },
+    ],
+  },
+  {
+    src: "/work/devsinc.jpeg",
+    role: "backend developer",
+    company: "Devsinc",
+    type: "remote",
+    date: "10/2022 - 11/2022",
+    skills: [
+      { label: "node JS", src: "/skills/node-js.png" },
+      { label: "express JS", src: "/skills/express.png" },
+      { label: "Heroku", src: "/skills/heroku.png" },
+      { label: "github", src: "/skills/git.png" },
+    ],
+  },
+  {
+    src: "/work/lookup.jpeg",
+    role: "frontend developer",
+    company: "lookup it solution",
+    type: "remote",
+    date: "10/2022 - 11/2022",
+    skills: [
+      { label: "next", src: "/skills/next-js.png" },
+      { label: "react", src: "/skills/react.png" },
+      { label: "redux", src: "/skills/redux.png" },
+      { label: "tailwindcss", src: "/skills/tailwind.png" },
+    ],
+  },
+
+  {
+    src: "/work/udemy.png",
+    role: "instructor",
+    type: "online",
+    date: "5/2017 - present",
+    options: ["45000+ udemy students", "Courses are includes projects"],
+  },
+  {
+    src: "/work/youtube.jpg",
+    role: "instructor",
+    type: "online",
+    date: "2/2016 - present",
+    options: [
+      "1200+ youtube subsribers",
+      "Created courses on React, Redux, Context API, Sass etc.",
+      "Tutorial videos included projects such as social networks, Ecommerce, blogs, stripe integrations and more",
+    ],
+  },
+];

@@ -13,7 +13,8 @@ const SkillsCard = ({ key, skill }) => {
     >
       {/* Skill icon img */}
       <div className={classNames("relative w-[25px] h-[25px]", {
-        'bg-white rounded-full': label.includes("next") 
+        'bg-white rounded-full': label.includes("next"),
+        'bg-white rounded-sm': label.includes("styled components"),
       })}>
         <Image
           src={src}
