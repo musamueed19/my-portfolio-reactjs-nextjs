@@ -18,6 +18,8 @@ const Experience = () => {
             {/* Image */}
             <div className="relative rounded-full overflow-hidden h-[50px] w-[50px] border dark:border-zinc-700">
               <Image
+                sizes="24"
+                alt={item.label + " Image"}
                 src={item.src}
                 fill
                 className="w-full h-full object-cover"

@@ -207,3 +207,70 @@ export const experienceData = [
     ],
   },
 ];
+
+export const projectsData = [
+  {
+    label: "Build Amazone clone in Next.js, Node.js and TypeScript",
+    src: "/projects/amazon.png",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+    skills: [
+      { label: "react", src: "/skills/react.png" },
+      { label: "typescript", src: "/skills/typescript.png" },
+      { label: "next", src: "/skills/next-js.png" },
+      { label: "tailwindcss", src: "/skills/tailwind.png" },
+      { label: "node", src: "/skills/node-js.png" },
+      { label: "mongodb", src: "/skills/mongodb.png" },
+    ],
+    href: "http://github.com/link",
+    demo: "http://www.demo.com/mydemo",
+  },
+  {
+    label: "Build Youtube clone in Next.js 14, Graphql and TypeScript",
+    src: "/projects/youtube.png",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+    skills: [
+      { label: "react", src: "/skills/react.png" },
+      { label: "typescript", src: "/skills/typescript.png" },
+      { label: "next", src: "/skills/next-js.png" },
+      { label: "tailwindcss", src: "/skills/tailwind.png" },
+      { label: "graphql", src: "/skills/graphql.png" },
+    ],
+    href: "http://github.com/link",
+    demo: "http://www.demo.com/mydemo",
+  },
+
+  {
+    label:
+      "Build a Decentralized Charity Platform with Next.js, TypeScript, and Solidity",
+    src: "/projects/web3.png",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+    skills: [
+      { label: "react", src: "/skills/react.png" },
+      { label: "typescript", src: "/skills/typescript.png" },
+      { label: "next", src: "/skills/next-js.png" },
+      { label: "tailwindcss", src: "/skills/tailwind.png" },
+      { label: "solidity", src: "/skills/ethereum.png" },
+      { label: "hardhat", src: "/skills/hardhat.png" },
+    ],
+    href: "http://github.com/link",
+    demo: "http://www.demo.com/mydemo",
+  },
+  {
+    label: "Build Upwork clone using Next.js 14, TypeScript and Graphql",
+    src: "/projects/upwork.png",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+    skills: [
+      { label: "react", src: "/skills/react.png" },
+      { label: "typescript", src: "/skills/typescript.png" },
+      { label: "next", src: "/skills/next-js.png" },
+      { label: "tailwindcss", src: "/skills/tailwind.png" },
+      { label: "solidity", src: "/skills/graphql.png" },
+    ],
+    href: "http://github.com/link",
+    demo: "http://www.demo.com/mydemo",
+  },
+];

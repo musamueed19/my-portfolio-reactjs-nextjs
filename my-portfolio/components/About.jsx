@@ -18,7 +18,7 @@ const About = () => {
       <h3 className="text-xl md:text-2xl font-bold text-black dark:text-white">{`${heading}`}</h3>
 
       {/* 👋🏻 */}
-        <Image src={"/wave.svg"} alt="wave emoji" height={50} width={50} />
+        <Image sizes="24" src={"/wave.svg"} alt="wave emoji" height={50} width={50} />
       </div>
 
       {/* About me bio */}

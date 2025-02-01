@@ -29,6 +29,7 @@ const Header = () => {
       {/* Image Section */}
       <div className="relative w-[200px] md:w-[150px] h-[200px] md:h-[150px] rounded-full overflow-hidden hover:scale-110 transition-all duration-500 hover:rotate-2 rotate-12">
         <Image
+          sizes="24"
           src={image.src}
           alt={image.alt}
           fill

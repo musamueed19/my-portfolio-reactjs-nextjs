@@ -22,7 +22,7 @@ const DarkLight = () => {
 
   return (
     //   from bg-zinc-700 to bg-violet-300 of 'div' container
-    <div className="fixed top-4 right-4 w-12 h-[18px] rounded-full bg-violet-300 flex items-center">
+    <div className="fixed z-50 top-4 right-4 w-12 h-[18px] rounded-full bg-violet-300 flex items-center">
       {/*  inner container for icons - switch button*/}
 
       <span
