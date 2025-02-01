@@ -9,12 +9,12 @@ const SkillsCard = ({ key, skill }) => {
     //   Container for 2 sections (1) Skills Image, and (2) Title
     <div
       key={key}
-      className="flex items-center space-x-2 border dark:border-zinc-700 py-1.5 px-2 rounded-md bg-zinc-50 dark:bg-zinc-800/50 hover:bg-zinc-100 dark:hover:bg-zinc-800  cursor-pointer"
+      className="flex items-center space-x-2 border dark:border-zinc-700 py-1.5 px-2.5 rounded-md bg-zinc-100/90 dark:bg-zinc-800/40 hover:bg-zinc-200/70 dark:hover:bg-zinc-800 cursor-pointer"
     >
       {/* Skill icon img */}
       <div className={classNames("relative w-[25px] h-[25px]", {
-        'bg-white rounded-full': label.includes("next"),
-        'bg-white rounded-sm': label.includes("styled components"),
+        'bg-white rounded-full': label.toLowerCase().includes("next"),
+        'bg-white rounded-md overflow-hidden': label.toLowerCase().includes("styled components"),
       })}>
         <Image
           src={src}

@@ -9,7 +9,7 @@ export default function HomePage() {
     <main className="max-w-screen-xl w-full mx-auto px-1.5">
       
       
-      <div className="mt-20 h-[1000px]">
+      <div className="mt-20">
         <Header />
         <Contacts />
         <About />

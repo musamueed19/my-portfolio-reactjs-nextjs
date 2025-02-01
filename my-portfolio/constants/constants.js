@@ -189,6 +189,7 @@ export const experienceData = [
   {
     src: "/work/udemy.png",
     role: "instructor",
+    company: "udemy",
     type: "online",
     date: "5/2017 - present",
     options: ["45000+ udemy students", "Courses are includes projects"],
@@ -196,6 +197,7 @@ export const experienceData = [
   {
     src: "/work/youtube.jpg",
     role: "instructor",
+    company: "youtube",
     type: "online",
     date: "2/2016 - present",
     options: [
