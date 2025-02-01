@@ -27,7 +27,7 @@ const Header = () => {
   return (
     <header className="flex pb-7 flex-wrap flex-col gap-y-9 md:flex-row items-center gap-x-8 justify-center">
       {/* Image Section */}
-      <div className="relative w-[200px] md:w-[150px] h-[200px] md:h-[150px] rounded-full overflow-hidden hover:scale-110 transition-all duration-500 hover:rotate-2 rotate-12">
+      <div className="relative w-[200px] md:w-[150px] h-[200px] md:h-[150px] rounded-full overflow-hidden hover:scale-110 transition-all duration-500 hover:rotate-2 rotate-12 ring-4 ring-zinc-300 dark:ring-zinc-600 cursor-pointer">
         <Image
           sizes="24"
           src={image.src}

@@ -38,7 +38,7 @@ export const socialLinkData = [
     name: "github",
     label: "github",
     href: "http://github.com/musamueed19",
-    icon: <FaGithub className="text-amber-950" />,
+    icon: <FaGithub className="text-amber-950 dark:text-zinc-300" />,
   },
   // {
   //     //   name: "twitter",
