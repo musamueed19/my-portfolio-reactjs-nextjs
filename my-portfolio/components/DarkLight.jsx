@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 // icons
 import { BsMoonStarsFill } from "react-icons/bs";
@@ -15,7 +15,10 @@ import classNames from "classnames";
 const DarkLight = () => {
   // set theme stats
   const { theme, setTheme } = useTheme();
-  // setTheme("light");
+  useEffect(() => {
+    setTheme("dark");
+
+  }, [])
 
   return (
     //   from bg-zinc-700 to bg-violet-300 of 'div' container

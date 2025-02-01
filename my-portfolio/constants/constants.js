@@ -1,5 +1,11 @@
 // icons
-import { FaBehance, FaEnvelope, FaFacebook, FaFilePdf, FaGithub } from "react-icons/fa";
+import {
+  FaBehance,
+  FaEnvelope,
+  FaFacebook,
+  FaFilePdf,
+  FaGithub,
+} from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -29,73 +35,70 @@ export const headerData = {
 
 export const socialLinkData = [
   {
-    id: 1,
     name: "github",
     label: "github",
     href: "http://github.com/musamueed19",
     icon: <FaGithub className="text-amber-950" />,
   },
+  // {
+  //     //   name: "twitter",
+  //   label: "twitter",
+  //   href: "http://twitter.com/username",
+  //   icon: <FaSquareXTwitter />,
+  // },
   {
-    id: 2,
-    name: "twitter",
-    label: "twitter",
-    href: "http://twitter.com/username",
-    icon: <FaSquareXTwitter />,
-  },
-  {
-    id: 3,
     name: "linkedin",
     label: "linkedin",
     href: "http://linkedin.com/in/musamueed19",
     icon: <FaLinkedin className="text-[#2b6adf]" />,
   },
   {
-    id: 4,
     name: "youtube",
     label: "youtube",
     href: "http://youtube.com/@sayedu",
     icon: <FaYoutube className="text-red-600" />,
   },
+  // {
+  //     //   name: "instagram",
+  //   label: "instagram",
+  //   href: "http://instagram.com/musamueed19",
+  //   icon: <FaInstagram className="text-pink-600" />,
+  // },
+  // {
+  //       //   name: "behance",
+  //   label: "behance",
+  //   href: "http://behance.com/username",
+  //   icon: <FaBehance className="text-blue-800" />,
+  // },
+  // {
+  //       //   name: "medium",
+  //   label: "medium",
+  //   href: "http://medium.com/username",
+  //   icon: <FaMedium />,
+  // },
   {
-    id: 5,
-    name: "instagram",
-    label: "instagram",
-    href: "http://instagram.com/musamueed19",
-    icon: <FaInstagram className="text-pink-600" />,
-  },
-  {
-    id: 6,
     name: "facebook",
     label: "facebook",
     href: "http://facebook.com/sayedu.pk",
     icon: <FaFacebook className="text-blue-600" />,
   },
   {
-    id: 7,
-    name: "behance",
-    label: "behance",
-    href: "http://behance.com/username",
-    icon: <FaBehance className="text-blue-800" />,
+    name: "cv",
+    label: "Resume",
+    href: "/files/cv.pdf",
+    icon: <FaFilePdf />,
   },
   {
-    id: 8,
-    name: "medium",
-    label: "medium",
-    href: "http://medium.com/username",
-    icon: <FaMedium />,
-  },
-  {
-    id: 9,
     name: "email",
     label: "email",
     href: "mailto:musa.swh@gmail.com",
     icon: <FaEnvelope />,
   },
-  {
-    id: 10,
-    name: "cv",
-    label: "download cv",
-    href: "/files/cv.pdf",
-    icon: <FaFilePdf />,
-  },
 ];
+
+export const aboutData = {
+  heading: "Hello Everyone",
+  bio: "I'm Muhammad Musa Mueed, a frontend web developer experienced in Javascript, React, Next, and Tailwind CSS. I am a React Developer with a passion for building scalable and efficient web applications. I am a quick learner and a team player. I am always looking for new challenges and opportunities to grow. I am a strong believer in the importance of continuous learning and self-improvement. I am a creative problem solver and a critical thinker.",
+  extraDetail:
+    "I am a good communicator and a team player. I am a strong believer in the importance of teamwork and collaboration. I am a good listener and a respectful person. I am a strong believer in the importance of empathy and understanding.",
+};
