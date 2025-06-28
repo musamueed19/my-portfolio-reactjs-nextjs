@@ -23,13 +23,14 @@ export const headerData = {
   },
   name: "Muhammad Musa Mueed",
   fatherName: "Muhammad Mueed Anwar",
-  profession: "Frontend React Web Developer",
+  profession: "Full-Stack Developer",
   address: "Lahore, Pakistan",
-  experience: "More than a year of experinece in web development",
-  contact: "musa.swh@gmail.com",
+  // experience: "More than a year of experinece in web development",
+  experience: "2+ Years in Web Development",
+  contact: "musavuswh@gmail.com",
   linkedin: "https://www.linkedin.com/in/musamueed19",
   github: "https://www.github.com/musamueed19",
-  resume: "https://drive.google.com/file/d/1u6Q7Q7Q",
+  resume: "/files/cv.pdf",
   education: "BS Computer Science",
 };
 
@@ -91,14 +92,14 @@ export const socialLinkData = [
   {
     name: "email",
     label: "email",
-    href: "mailto:musa.swh@gmail.com",
+    href: "mailto:musavuswh@gmail.com",
     icon: <FaEnvelope />,
   },
 ];
 
 export const aboutData = {
   heading: "Hello Everyone",
-  bio: "I'm Muhammad Musa Mueed, a frontend web developer experienced in Javascript, React, Next, and Tailwind CSS. I am a React Developer with a passion for building scalable and efficient web applications. I am a quick learner and a team player. I am always looking for new challenges and opportunities to grow. I am a strong believer in the importance of continuous learning and self-improvement. I am a creative problem solver and a critical thinker.",
+  bio: "I'm Muhammad Musa Mueed, a fullstack web developer experienced in Javascript, TypeScript,  Tailwind CSS, React, Redux, Next, Express.js, MongoDB, PostreSQL, SQL Server. I am a React Developer with a passion for building scalable and efficient web applications. I am a quick learner and a team player. I am always looking for new challenges and opportunities to grow. I am a strong believer in the importance of continuous learning and self-improvement. I am a creative problem solver and a critical thinker.",
   extraDetail:
     "I am a good communicator and a team player. I am a strong believer in the importance of teamwork and collaboration. I am a good listener and a respectful person. I am a strong believer in the importance of empathy and understanding.",
 };
@@ -106,7 +107,7 @@ export const aboutData = {
 export const skillsData = [
   { label: "HTML", src: "/skills/html-5.png" },
   { label: "CSS", src: "/skills/css3.png" },
-  { label: "sass", src: "/skills/sass.png" },
+  // { label: "sass", src: "/skills/sass.png" },
   { label: "bootstrap", src: "/skills/bootstrap.png" },
   { label: "tailwindcss", src: "/skills/tailwind.png" },
   { label: "figma", src: "/skills/figma.png" },
@@ -116,162 +117,293 @@ export const skillsData = [
   { label: "react native", src: "/skills/react-native.png" },
   { label: "redux", src: "/skills/redux.png" },
   { label: "next", src: "/skills/next-js.png" },
-  { label: "styled components", src: "/skills/styled.png" },
+  // { label: "styled components", src: "/skills/styled.png" },
   { label: "MUI", src: "/skills/mui.png" },
-  { label: "vue", src: "/skills/vuejs.png" },
-  { label: "vuex", src: "/skills/vuex.png" },
+  // { label: "vue", src: "/skills/vuejs.png" },
+  // { label: "vuex", src: "/skills/vuex.png" },
   { label: "angular", src: "/skills/angularjs.png" },
   { label: "c++", src: "/skills/cplusplus.png" },
   { label: "node", src: "/skills/node-js.png" },
   { label: "graphql", src: "/skills/graphql.png" },
   { label: "express", src: "/skills/express.png" },
   { label: "mongodb", src: "/skills/mongodb.png" },
-  { label: "PHP", src: "/skills/php.png" },
+  // { label: "PHP", src: "/skills/php.png" },
   { label: "MySQL", src: "/skills/mysql.png" },
   { label: "postgres", src: "/skills/postgresql.png" },
   { label: "jest", src: "/skills/js.png" },
   { label: "heroku", src: "/skills/heroku.png" },
   { label: "netlify", src: "/skills/netlify.png" },
-  { label: "solidity", src: "/skills/ethereum.png" },
-  { label: "ethers js", src: "/skills/ethersjs.png" },
-  { label: "hardhat", src: "/skills/hardhat.png" },
+  // { label: "solidity", src: "/skills/ethereum.png" },
+  // { label: "ethers js", src: "/skills/ethersjs.png" },
+  // { label: "hardhat", src: "/skills/hardhat.png" },
   { label: "AWS", src: "/skills/aws.png" },
   { label: "docker", src: "/skills/docker.png" },
   { label: "GitHub", src: "/skills/git.png" },
 ];
 
 export const experienceData = [
+  // {
+  //   src: "/work/nordic.jpg",
+  //   company: "nordic software solution",
+  //   role: "MERN Stack Developer",
+  //   type: "remote",
+  //   date: "11/2022 - present",
+  //   skills: [
+  //     { label: "node JS", src: "/skills/node-js.png" },
+  //     { label: "express JS", src: "/skills/express.png" },
+  //     { label: "mongoDB", src: "/skills/mongodb.png" },
+  //     { label: "react JS", src: "/skills/react.png" },
+  //     { label: "Next JS", src: "/skills/next-js.png" },
+  //     { label: "redux", src: "/skills/redux.png" },
+  //     { label: "tailwind CSS", src: "/skills/tailwind.png" },
+  //     { label: "material UI", src: "/skills/mui.png" },
+  //     { label: "github", src: "/skills/git.png" },
+  //   ],
+  // },
+  // {
+  //   src: "/work/devsinc.jpeg",
+  //   role: "backend developer",
+  //   company: "Devsinc",
+  //   type: "remote",
+  //   date: "10/2022 - 11/2022",
+  //   skills: [
+  //     { label: "node JS", src: "/skills/node-js.png" },
+  //     { label: "express JS", src: "/skills/express.png" },
+  //     { label: "Heroku", src: "/skills/heroku.png" },
+  //     { label: "github", src: "/skills/git.png" },
+  //   ],
+  // },
+  // {
+  //   src: "/work/lookup.jpeg",
+  //   role: "frontend developer",
+  //   company: "lookup it solution",
+  //   type: "remote",
+  //   date: "10/2022 - 11/2022",
+  //   skills: [
+  //     { label: "next", src: "/skills/next-js.png" },
+  //     { label: "react", src: "/skills/react.png" },
+  //     { label: "redux", src: "/skills/redux.png" },
+  //     { label: "tailwindcss", src: "/skills/tailwind.png" },
+  //   ],
+  // },
+
+  // {
+  //   src: "/work/udemy.png",
+  //   role: "instructor",
+  //   company: "udemy",
+  //   type: "online",
+  //   date: "5/2017 - present",
+  //   options: ["45000+ udemy students", "Courses are includes projects"],
+  // },
+  // {
+  //   src: "/work/youtube.jpg",
+  //   role: "instructor",
+  //   company: "youtube",
+  //   type: "online",
+  //   date: "2/2016 - present",
+  //   options: [
+  //     "1200+ youtube subsribers",
+  //     "Created courses on React, Redux, Context API, Sass etc.",
+  //     "Tutorial videos included projects such as social networks, Ecommerce, blogs, stripe integrations and more",
+  //   ],
+  // },
   {
-    src: "/work/nordic.jpg",
-    company: "nordic software solution",
-    role: "MERN Stack Developer",
-    type: "remote",
-    date: "11/2022 - present",
+    src: "/work/vu.png",
+    // company: "Virtual University of Pakistan Software House (VUSWH)",
+    company: "Virtual University of Pakistan (VU)",
+    role: "Frontend Developer",
+    type: "On-site",
+    date: "04/2024 - 03/2025",
     skills: [
+      { label: "c++", src: "/skills/cplusplus.png" },
+      { label: "figma", src: "/skills/figma.png" },
+      { label: "github", src: "/skills/git.png" },
+      { label: "HTML", src: "/skills/html-5.png" },
+      { label: "CSS", src: "/skills/css3.png" },
+      { label: "JavaScript", src: "/skills/javascript.png" },
+      { label: "TypeScript", src: "/skills/typescript.png" },
+      { label: "tailwind CSS", src: "/skills/tailwind.png" },
       { label: "node JS", src: "/skills/node-js.png" },
-      { label: "express JS", src: "/skills/express.png" },
-      { label: "mongoDB", src: "/skills/mongodb.png" },
       { label: "react JS", src: "/skills/react.png" },
       { label: "Next JS", src: "/skills/next-js.png" },
       { label: "redux", src: "/skills/redux.png" },
-      { label: "tailwind CSS", src: "/skills/tailwind.png" },
-      { label: "material UI", src: "/skills/mui.png" },
-      { label: "github", src: "/skills/git.png" },
-    ],
-  },
-  {
-    src: "/work/devsinc.jpeg",
-    role: "backend developer",
-    company: "Devsinc",
-    type: "remote",
-    date: "10/2022 - 11/2022",
-    skills: [
-      { label: "node JS", src: "/skills/node-js.png" },
       { label: "express JS", src: "/skills/express.png" },
-      { label: "Heroku", src: "/skills/heroku.png" },
-      { label: "github", src: "/skills/git.png" },
+      { label: "MySQL", src: "/skills/mysql.png" },
+      { label: "mongoDB", src: "/skills/mongodb.png" },
+      { label: "docker", src: "/skills/docker.png" },
     ],
   },
   {
-    src: "/work/lookup.jpeg",
-    role: "frontend developer",
-    company: "lookup it solution",
-    type: "remote",
-    date: "10/2022 - 11/2022",
+    src: "/work/vu.png",
+    company: "Virtual University of Pakistan (VU)",
+    role: "Teaching Assistant",
+    type: "On-site",
+    date: "03/2025 - Present",
     skills: [
-      { label: "next", src: "/skills/next-js.png" },
-      { label: "react", src: "/skills/react.png" },
+      { label: "c++", src: "/skills/cplusplus.png" },
+      { label: "github", src: "/skills/git.png" },
+      { label: "JavaScript", src: "/skills/javascript.png" },
+      { label: "TypeScript", src: "/skills/typescript.png" },
+      { label: "tailwind CSS", src: "/skills/tailwind.png" },
+      { label: "bootstrap", src: "/skills/bootstrap.png" },
+      { label: "node JS", src: "/skills/node-js.png" },
+      { label: "react JS", src: "/skills/react.png" },
+      { label: "Next JS", src: "/skills/next-js.png" },
       { label: "redux", src: "/skills/redux.png" },
-      { label: "tailwindcss", src: "/skills/tailwind.png" },
-    ],
-  },
-
-  {
-    src: "/work/udemy.png",
-    role: "instructor",
-    company: "udemy",
-    type: "online",
-    date: "5/2017 - present",
-    options: ["45000+ udemy students", "Courses are includes projects"],
-  },
-  {
-    src: "/work/youtube.jpg",
-    role: "instructor",
-    company: "youtube",
-    type: "online",
-    date: "2/2016 - present",
-    options: [
-      "1200+ youtube subsribers",
-      "Created courses on React, Redux, Context API, Sass etc.",
-      "Tutorial videos included projects such as social networks, Ecommerce, blogs, stripe integrations and more",
+      { label: "express JS", src: "/skills/express.png" },
+      { label: "postgres", src: "/skills/postgresql.png" },
+      { label: "mongoDB", src: "/skills/mongodb.png" },
+      { label: "react native", src: "/skills/react-native.png" },
+      // { label: "MUI", src: "/skills/mui.png" },
+      // { label: "angular", src: "/skills/angularjs.png" },
+      { label: "graphql", src: "/skills/graphql.png" },
+      { label: "jest", src: "/skills/js.png" },
+      { label: "netlify", src: "/skills/netlify.png" },
+      { label: "heroku", src: "/skills/heroku.png" },
+      { label: "docker", src: "/skills/docker.png" },
+      { label: "AWS", src: "/skills/aws.png" },
     ],
   },
 ];
 
 export const projectsData = [
-  {
-    label: "Build Amazone clone in Next.js, Node.js and TypeScript",
-    src: "/projects/amazon.png",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
-    skills: [
-      { label: "react", src: "/skills/react.png" },
-      { label: "typescript", src: "/skills/typescript.png" },
-      { label: "next", src: "/skills/next-js.png" },
-      { label: "tailwindcss", src: "/skills/tailwind.png" },
-      { label: "node", src: "/skills/node-js.png" },
-      { label: "mongodb", src: "/skills/mongodb.png" },
-    ],
-    href: "http://github.com/link",
-    demo: "http://www.demo.com/mydemo",
-  },
-  {
-    label: "Build Youtube clone in Next.js 14, Graphql and TypeScript",
-    src: "/projects/youtube.png",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
-    skills: [
-      { label: "react", src: "/skills/react.png" },
-      { label: "typescript", src: "/skills/typescript.png" },
-      { label: "next", src: "/skills/next-js.png" },
-      { label: "tailwindcss", src: "/skills/tailwind.png" },
-      { label: "graphql", src: "/skills/graphql.png" },
-    ],
-    href: "http://github.com/link",
-    demo: "http://www.demo.com/mydemo",
-  },
+  // {
+  //   label: "Build Amazone clone in Next.js, Node.js and TypeScript",
+  //   src: "/projects/amazon.png",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+  //   skills: [
+  //     { label: "react", src: "/skills/react.png" },
+  //     { label: "typescript", src: "/skills/typescript.png" },
+  //     { label: "next", src: "/skills/next-js.png" },
+  //     { label: "tailwindcss", src: "/skills/tailwind.png" },
+  //     { label: "node", src: "/skills/node-js.png" },
+  //     { label: "mongodb", src: "/skills/mongodb.png" },
+  //   ],
+  //   href: "http://github.com/link",
+  //   demo: "http://www.demo.com/mydemo",
+  // },
+  // {
+  //   label: "Build Youtube clone in Next.js 14, Graphql and TypeScript",
+  //   src: "/projects/youtube.png",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+  //   skills: [
+  //     { label: "react", src: "/skills/react.png" },
+  //     { label: "typescript", src: "/skills/typescript.png" },
+  //     { label: "next", src: "/skills/next-js.png" },
+  //     { label: "tailwindcss", src: "/skills/tailwind.png" },
+  //     { label: "graphql", src: "/skills/graphql.png" },
+  //   ],
+  //   href: "http://github.com/link",
+  //   demo: "http://www.demo.com/mydemo",
+  // },
 
+  // {
+  //   label:
+  //     "Build a Decentralized Charity Platform with Next.js, TypeScript, and Solidity",
+  //   src: "/projects/web3.png",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+  //   skills: [
+  //     { label: "react", src: "/skills/react.png" },
+  //     { label: "typescript", src: "/skills/typescript.png" },
+  //     { label: "next", src: "/skills/next-js.png" },
+  //     { label: "tailwindcss", src: "/skills/tailwind.png" },
+  //     { label: "solidity", src: "/skills/ethereum.png" },
+  //     { label: "hardhat", src: "/skills/hardhat.png" },
+  //   ],
+  //   href: "http://github.com/link",
+  //   demo: "http://www.demo.com/mydemo",
+  // },
+  // {
+  //   label: "Build Upwork clone using Next.js 14, TypeScript and Graphql",
+  //   src: "/projects/upwork.png",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+  //   skills: [
+  //     { label: "react", src: "/skills/react.png" },
+  //     { label: "typescript", src: "/skills/typescript.png" },
+  //     { label: "next", src: "/skills/next-js.png" },
+  //     { label: "tailwindcss", src: "/skills/tailwind.png" },
+  //     { label: "solidity", src: "/skills/graphql.png" },
+  //   ],
+  //   href: "http://github.com/link",
+  //   demo: "http://www.demo.com/mydemo",
+  // },
   {
-    label:
-      "Build a Decentralized Charity Platform with Next.js, TypeScript, and Solidity",
-    src: "/projects/web3.png",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+    label: "Appify Landing Page - Next.js 14, TypeScript",
+    src: "/projects/appify0.png",
+    description: (
+      <>
+        <ul className="list-inside space-y-2">
+          <li>1- Section based Routing </li>
+          <li>2- Design Responsiveness with TailwindCSS</li>
+          <li>3- Strongly typed with TypeScript</li>
+          <li>4- Scrolling Animation with Asios</li>
+        </ul>
+      </>
+    ),
     skills: [
-      { label: "react", src: "/skills/react.png" },
+      { label: "git", src: "/skills/git.png" },
       { label: "typescript", src: "/skills/typescript.png" },
-      { label: "next", src: "/skills/next-js.png" },
       { label: "tailwindcss", src: "/skills/tailwind.png" },
-      { label: "solidity", src: "/skills/ethereum.png" },
-      { label: "hardhat", src: "/skills/hardhat.png" },
+      { label: "react", src: "/skills/react.png" },
+      { label: "next", src: "/skills/next-js.png" },
     ],
-    href: "http://github.com/link",
-    demo: "http://www.demo.com/mydemo",
+    href: "https://github.com/musamueed19/Appify-Landing-WW",
+    demo: "https://musa-appify.vercel.app/",
   },
   {
-    label: "Build Upwork clone using Next.js 14, TypeScript and Graphql",
-    src: "/projects/upwork.png",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+    label: "Movix App - React, TMDB API",
+    src: "/projects/movix0.png",
+    description: (
+      <>
+        <ul className="list-inside space-y-2">
+          <li>1- All Movies Information</li>
+          <li>2- Collection of All movies and tv shows</li>
+          <li>
+            3- Secure API Integration & Redux for Global States Management
+          </li>
+          <li>4- Movies, Casts, Role and Trailer Information</li>
+        </ul>
+      </>
+    ),
     skills: [
-      { label: "react", src: "/skills/react.png" },
-      { label: "typescript", src: "/skills/typescript.png" },
-      { label: "next", src: "/skills/next-js.png" },
+      { label: "git", src: "/skills/git.png" },
+      { label: "javascript", src: "/skills/javascript.png" },
       { label: "tailwindcss", src: "/skills/tailwind.png" },
-      { label: "solidity", src: "/skills/graphql.png" },
+      { label: "react", src: "/skills/react.png" },
+      { label: "redux", src: "/skills/redux.png" },
     ],
-    href: "http://github.com/link",
-    demo: "http://www.demo.com/mydemo",
+    href: "https://github.com/musamueed19/Movix-Web-App",
+    demo: "https://musa-movix.vercel.app/",
+  },
+  {
+    label: "Point Of Sales (POS) Application - React, Redux, Express",
+    src: "/projects/igpos11.png",
+    description: (
+      <>
+        <ul className="list-inside space-y-2">
+          <li>1- List of all Categories based Items</li>
+          <li>2- Add to Cart & Cart Management Functionality</li>
+          <li>3- Order Details & Order Bill Print</li>
+          <li>4- User & Admin (Auth) Management</li>
+          <li>5- Products, Bills & Customers Management</li>
+        </ul>
+      </>
+    ),
+    skills: [
+      { label: "git", src: "/skills/git.png" },
+      { label: "javascript", src: "/skills/javascript.png" },
+      { label: "tailwindcss", src: "/skills/tailwind.png" },
+      { label: "react", src: "/skills/react.png" },
+      { label: "redux", src: "/skills/redux.png" },
+      { label: "express JS", src: "/skills/express.png" },
+      { label: "mongoDB", src: "/skills/mongodb.png" },
+    ],
+    href: "https://github.com/musamueed19/POS-Application",
+    demo: "https://igpos.vercel.app/",
   },
 ];
 
