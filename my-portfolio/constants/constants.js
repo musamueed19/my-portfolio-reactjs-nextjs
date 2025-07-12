@@ -405,6 +405,33 @@ export const projectsData = [
     href: "https://github.com/musamueed19/POS-Application",
     demo: "https://igpos.vercel.app/",
   },
+  {
+    label:
+      "Modern Blogging Application with Admin Dashboard - React, Redux, Express",
+    src: "/projects/mern-blog.png",
+    description: (
+      <>
+        <ul className="list-inside space-y-2">
+          <li>1- List all Categories based Blogs</li>
+          <li>2- User & Admin (Auth) Management</li>
+          <li>3- Modern User Interactive & Mobile Responsive</li>
+          <li>4- Admin Dashboard to manage admins, and blogs</li>
+          <li>5- Global Statement Management with Redux, and RTK Query</li>
+        </ul>
+      </>
+    ),
+    skills: [
+      { label: "git", src: "/skills/git.png" },
+      { label: "javascript", src: "/skills/javascript.png" },
+      { label: "tailwindcss", src: "/skills/tailwind.png" },
+      { label: "react", src: "/skills/react.png" },
+      { label: "redux", src: "/skills/redux.png" },
+      { label: "express JS", src: "/skills/express.png" },
+      { label: "mongoDB", src: "/skills/mongodb.png" },
+    ],
+    href: "https://github.com/musamueed19/Hotel-RoofTop",
+    demo: "https://hotelrt.vercel.app/",
+  },
 ];
 
 export const reviewsData = [
